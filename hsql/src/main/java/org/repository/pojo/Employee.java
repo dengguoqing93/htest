@@ -18,10 +18,6 @@ public class Employee implements Serializable {
     private String email;
 
 
-    public Employee() {
-        // TODO Auto-generated constructor stub
-    }
-
 
     public Employee(String lastName, String gender, String email) {
         super();
