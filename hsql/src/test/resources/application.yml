@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    driver-class-name: org.hsqldb.jdbc.JDBCDriver
+    jdbc.url : jdbc:hsqldb:hsql://localhost:9001/testdb
+    jdbc.username : sa
+    jdbc.password :
+    sql-script-encoding: UTF-8
